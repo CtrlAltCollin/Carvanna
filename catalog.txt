@@ -1,0 +1,27 @@
+2019 Toyota Camry SE
+2018 Honda Civic LX
+2020 Nissan Altima SR
+2017 Ford Mustang EcoBoost
+2019 Mazda3 Touring
+2018 Hyundai Elantra SEL
+2020 Kia Optima LX
+2019 Subaru Outback Premium
+2016 BMW 328i xDrive
+2017 Audi A4 Premium
+2018 Mercedes-Benz C300
+2019 Volkswagen Jetta S
+2017 Chevrolet Malibu LT
+2018 Nissan Sentra SV
+2020 Toyota Corolla LE
+2019 Honda Accord Sport
+2017 Toyota RAV4 XLE
+2018 Honda CR-V EX
+2019 Ford Escape SE
+2018 Mazda CX-5 Sport
+2017 Jeep Grand Cherokee Laredo
+2019 Dodge Charger SXT
+2018 Chevrolet Camaro LT
+2020 Tesla Model 3 Standard Range
+2017 Lexus ES 350
+2018 Acura TLX
+2019 Infiniti Q50 3.0t Luxe

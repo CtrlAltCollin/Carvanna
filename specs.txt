@@ -1,0 +1,28 @@
+2019 Toyota Camry SE|White|32100 miles|Small bumper scuff|$19,200
+2018 Honda Civic LX|Blue|45700 miles|No damages|$16,700
+2020 Nissan Altima SR|Red|28050 miles|Curb rash on wheel|$21,500
+2017 Ford Mustang EcoBoost|Black|38900 miles|Minor interior wear|$18,900
+2019 Mazda3 Touring|Gray|24100 miles|No damages|$19,400
+2018 Hyundai Elantra SEL|Silver|51200 miles|Windshield chip repaired|$15,800
+2020 Kia Optima LX|White|23000 miles|No damages|$22,000
+2019 Subaru Outback Premium|Green|36150 miles|Light hail marks|$23,100
+2016 BMW 328i xDrive|Black|60200 miles|Service due soon|$17,300
+2017 Audi A4 Premium|White|54800 miles|No damages|$19,800
+2018 Mercedes-Benz C300|Gray|43100 miles|Minor wheel scratch|$22,700
+2019 Volkswagen Jetta S|Blue|37200 miles|No damages|$17,900
+2017 Chevrolet Malibu LT|Silver|59800 miles|Backup camera intermittent|$15,600
+2018 Nissan Sentra SV|Black|52900 miles|No damages|$15,200
+2020 Toyota Corolla LE|Red|21900 miles|No damages|$21,000
+2019 Honda Accord Sport|White|33400 miles|Small paint chip|$20,800
+2017 Toyota RAV4 XLE|Gray|61200 miles|Rear wiper inop|$18,300
+2018 Honda CR-V EX|Blue|48750 miles|No damages|$19,700
+2019 Ford Escape SE|White|40500 miles|Tire pressure sensor light|$18,900
+2018 Mazda CX-5 Sport|Red|49800 miles|No damages|$19,200
+2017 Jeep Grand Cherokee Laredo|Black|65500 miles|No damages|$20,000
+2019 Dodge Charger SXT|White|35200 miles|No damages|$22,300
+2018 Chevrolet Camaro LT|Yellow|40100 miles|Minor paint swirl|$21,800
+2020 Tesla Model 3 Standard Range|White|18900 miles|No damages|$34,500
+2017 Lexus ES 350|Silver|54000 miles|No damages|$20,900
+2018 Acura TLX|Black|46100 miles|No damages|$21,100
+2019 Infiniti Q50 3.0t Luxe|Blue|37250 miles|No damages|$24,300
+
