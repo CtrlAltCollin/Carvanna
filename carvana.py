@@ -5,18 +5,25 @@ def show_faq():
     faq_file.close()
     print("\n" + faq_contents + "\n")
 
+
 def get_input_with_faq(prompt):
     # This function asks the user for input
     # If they type FAQ, it shows the FAQ and asks the same question again
     user_input = input(prompt)
 
-    while user_input == "FAQ":
+    while user_input.upper() == "FAQ":
         show_faq()
         user_input = input(prompt)
 
     return user_input
 
+
 def main():
+    # ASCII banner
+    print("===================================")
+    print("        WELCOME TO CARVANA         ")
+    print("===================================\n")
+
     print("At any point in time, if you would like to open the FAQ, please type FAQ.\n")
 
     # Ask the user if they want to open Carvana
@@ -44,8 +51,15 @@ def main():
 
     print()
 
-    # Ask which number car they want (FAQ allowed)
+    # Ask which number car they want 
     user_input = get_input_with_faq('Which number car would you like to view? ')
+
+    # INPUT VALIDATION
+    while not user_input.isdigit():
+        print("Please enter a number.\n")
+        user_input = get_input_with_faq('Which number car would you like to view? ')
+  
+
     choice = int(user_input)
 
     # Open specs file and pick the chosen car's line
@@ -65,7 +79,7 @@ def main():
     else:
         print('Thank you for visiting Carvana! Have a nice day!')
     return
-    
-    
+
+
 # Run the program
 main()
