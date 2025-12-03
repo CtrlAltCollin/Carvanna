@@ -59,7 +59,6 @@ def main():
         print("Please enter a number.\n")
         user_input = get_input_with_faq('Which number car would you like to view? ')
   
-
     choice = int(user_input)
 
     # Open specs file and pick the chosen car's line
@@ -74,11 +73,71 @@ def main():
     print(chosen_specs)
 
     proceed = input('Would you like to proceed with purchasing this car? (y/n): ')
+
     if proceed == 'y':
-        print('Great here is the purchasing details of your specific car: ')
+        print('\nGreat! Let’s begin the purchasing process.\n')
+
+        # Ask for trade-in
+        trade = input('Do you have a trade-in vehicle? (y/n): ')
+        trade_value = 0
+
+        if trade == 'y':
+            trade_input = input('Enter the trade-in value of your vehicle: ')
+            while not trade_input.isdigit():
+                print("Please enter a number.")
+                trade_input = input('Enter the trade-in value of your vehicle: ')
+            trade_value = int(trade_input)
+
+        # Ask for pre-approval information
+        income_input = input('Enter your yearly income: ')
+        while not income_input.isdigit():
+            print("Please enter a number.")
+            income_input = input('Enter your yearly income: ')
+        income = int(income_input)
+
+        down_input = input('Enter your down payment amount: ')
+        while not down_input.isdigit():
+            print("Please enter a number.")
+            down_input = input('Enter your down payment amount: ')
+        down_payment = int(down_input)
+
+        # Basic approval
+        if income > 25000 and down_payment >= 500:
+            approval = "Approved"
+        else:
+            approval = "Denied"
+
+        # Shipping or pickup
+        shipping = input('Would you like shipping? (y/n): ')
+        if shipping == 'y':
+            shipping_cost = 500
+        else:
+            shipping_cost = 0
+
+        # PRINT RECEIPT 
+        print("\n========== PURCHASE RECEIPT ==========\n")
+        print("Car Selected: " + chosen_specs)
+        print("Trade-in Value: $", trade_value, sep='')
+        print("Down Payment: $", down_payment, sep='')
+        print("Income: $", income, sep='')
+        print("Loan Status:", approval)
+        print("Shipping Cost: $", shipping_cost, sep='')
+        print("\n======================================\n")
+
+        # Offer to return to catalog
+        go_back = input("Would you like to return to the catalog? (y/n): ")
+
+        if go_back == 'y':
+            print("\nReturning to catalog...\n")
+            main()  # Restart program
+            return
+        else:
+            print("Thank you for shopping with Carvana!")
+            return
+
     else:
         print('Thank you for visiting Carvana! Have a nice day!')
-    return
+        return
 
 
 # Run the program
