@@ -16,12 +16,11 @@ def is_number(value):
 
 
 def equals_faq(text):
-    # Manual version of text.upper() == "FAQ" (no .upper allowed)
     return text == "FAQ" or text == "faq" or text == "Faq" or text == "fAQ" or text == "faQ" or text == "FAq" or text == "fAq"
 
 
 def get_input_with_faq(prompt):
-    # Asks for input and checks for FAQ manually
+    # Asks for input and checks for FAQ 
     user_input = input(prompt)
 
     while equals_faq(user_input):
@@ -32,7 +31,7 @@ def get_input_with_faq(prompt):
 
 
 def extract_price(spec_line):
-    # Extracts price manually (no .find or .replace allowed)
+    # Extracts price 
     # Step 1: Find the '$'
     dollar_index = -1
     index = 0
@@ -298,4 +297,5 @@ def main():
 
 # Run program
 main()
+
 
