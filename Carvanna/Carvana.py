@@ -7,7 +7,7 @@ def show_faq():
 
 
 def is_number(value):
-    # Validates that the input is numeric (no .isdigit() allowed)
+    # Validates the input 
     try:
         int(value)
         return True
@@ -180,7 +180,7 @@ def main():
     else:
         shipping_cost = 0
 
-    # PRICE EXTRACTION — no methods allowed
+    # PRICE EXTRACTION 
     price = extract_price(chosen_specs)
 
     # PAYMENT OPTIONS
@@ -298,3 +298,4 @@ def main():
 
 # Run program
 main()
+
